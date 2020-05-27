@@ -45,10 +45,10 @@
 export default {
   name: "CardList",
   props: ["list"],
-  data: () => ({
+  data: () => ({  
     childrens: [],
     show: false
-  }),
+  }), 
   methods: {
     setChildrens(items, show) {
       this.childrens = items;

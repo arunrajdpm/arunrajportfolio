@@ -1,0 +1,33 @@
+.dashboard_header {
+    ul {
+        display: inline-block;
+        list-style: none;
+        .dashboard_menuItems {
+            display: inline-block;
+            padding: 10px 14px;
+            font-size: 12px;
+        }
+    }
+    i {
+        font-size: 22px;
+    }
+    .v-image {   
+       display: inline-block;
+       border-radius: 50%;
+       margin: auto;    
+    }
+}   
+
+
+.content_wrapper {
+    
+    .v-card {
+        height: 100%;
+    }
+    .chart_content {
+        min-height: 250px;
+    }
+    .chartLower_content {
+        min-height: 80px;    
+    }
+}   

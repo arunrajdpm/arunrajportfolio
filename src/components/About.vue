@@ -12,7 +12,7 @@
           </v-list-item-group>
         </v-list>
       </v-flex>
-      <v-flex xs10>
+      <v-flex xs10> 
         <v-card class="main-content-wrapper">content</v-card>
       </v-flex>
     </v-layout>
